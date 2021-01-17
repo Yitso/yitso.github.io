@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Yitso</title>
+  <title>如何使用 Hexo 搭建个人博客 | Yitso</title>
   <meta name="author" content="Yitso">
   
   <meta name="description" content="公众号: 神奇链表">
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="如何使用 Hexo 搭建个人博客"/>
   <meta property="og:site_name" content="Yitso"/>
 
   
@@ -106,14 +106,13 @@
   })
 </script></header>
   <div id="content" class="inner">
-    <div id="main-col" class="alignleft"><div id="wrapper">
-  <article id="post-20210117/How-to-build-a-blog-by-hexo" class="h-entry post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article id="post-20210117/How-to-build-a-blog-by-hexo" class="h-entry post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   
   <div class="post-content">
     <header>
       
   
-    <h1 class="title"><a href="/20210117/How-to-build-a-blog-by-hexo/">如何使用 Hexo 搭建个人博客</a></h1>
+    <h1 class="p-name title" itemprop="headline name">如何使用 Hexo 搭建个人博客</h1>
   
 
             
@@ -221,95 +220,7 @@
     </div>
   </div>
 </article>
-
-
-  <article id="post-20210109/How-to-create-a-self-website-by-github-pages" class="h-entry post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  
-  <div class="post-content">
-    <header>
-      
-  
-    <h1 class="title"><a href="/20210109/How-to-create-a-self-website-by-github-pages/">如何使用 GitHub Pages 搭建一个属于自己的网站</a></h1>
-  
-
-            
-       <h4 class="time">2021-01-09</h4>
-      
-    </header>
-    <div class="e-content entry" itemprop="articleBody">
-      
-        <p> 相信很多人和我一样，小的时候就有一个梦想————拥有一个属于自己的网站。时至今日，我想许多人仍旧怀有着这个理想，想在纷杂的互联网中有一篇只属于自己的净土。然而，建站往往是一个多数人难以驾驭的工作，你至少需要有一台服务器，还需要有一定的计算机知识去运维这台服务器，这就使得许多人就此望而却步了。</p>
-<p>但是，如果说有一个平台能够免费提供这样一项服务，你不需要一台服务器，只需要做一些简单的配置，就可以免费搭建起自己的网站，你可以把自己的精力更多投入到属于自己的内容生产上来，你会不会心动呢？</p>
-<p>这就是<a target="_blank" rel="noopener" href="https://pages.github.com/">Github Pages</a>，由<a target="_blank" rel="noopener" href="https://github.com/">Github</a>提供的一项免费服务</p>
-<h2 id="创建一个Github账户"><a href="#创建一个Github账户" class="headerlink" title="创建一个Github账户"></a>创建一个Github账户</h2><p>要使用Github Page，首先你得有一个Github账户，进入<a target="_blank" rel="noopener" href="https://github.com/">github.com</a>后，点击Sign up，填写完相关信息后就注册完成啦</p>
-<h2 id="创建一个Repository并配置Github-Page"><a href="#创建一个Repository并配置Github-Page" class="headerlink" title="创建一个Repository并配置Github Page"></a>创建一个Repository并配置Github Page</h2><p>注册完成后，你还需要创建一个仓库（Repository），在主页的左上角点击<strong>New</strong>，或<a target="_blank" rel="noopener" href="https://github.com/new"><strong>点此</strong></a>直接创建</p>
-<p>进入创建页后，在Repository name位置填写域名，格式是[<strong>你的用户名</strong>]<strong>.GitHub.io</strong>，注意不要选择Private仓库，毕竟你的网站是要让所有人看到的:)。</p>
-<p><img src="/images/20210109/repo-create.png" alt="创建页"></p>
-<p>创建后在Repo的标签页点击<strong>settings</strong>进入配置页面</p>
-<p><img src="/images/20210109/settings-goto.png"></p>
-<p>在页面下方找到Github Pages，这里是我们的主页的配置页，点击<strong>Choose Theme</strong></p>
-<p><img src="/images/20210109/settings-choose-theme.png"></p>
-<p>选择一款你喜欢的主题</p>
-<p><img src="/images/20210109/settings-select-theme.png"></p>
-<p>选择完成后点击<strong>Commit Change</strong>提交</p>
-<p><img src="/images/20210109/settings-commit-theme.png"></p>
-<p>完成后，就可以在浏览器地址栏输入[<strong>你的用户名</strong>]<strong>.GitHub.io</strong></p>
-<p><img src="/images/20210109/website-init.png"></p>
-<p>是不是很惊喜，一个网站就这么生成了！</p>
-<h2 id="使用Visual-Studio-Code-和-Github-Desktop来编辑和提交你的修改"><a href="#使用Visual-Studio-Code-和-Github-Desktop来编辑和提交你的修改" class="headerlink" title="使用Visual Studio Code 和 Github Desktop来编辑和提交你的修改"></a>使用Visual Studio Code 和 Github Desktop来编辑和提交你的修改</h2><p>如你所见，你的网站虽然已经可以访问了，但他还只是一个模板，那么现在就需要我们动动手来写一点自己的东西，那么首先我们需要两样工具</p>
-<ul>
-<li>文本编辑器，推荐使用<a target="_blank" rel="noopener" href="https://code.visualstudio.com/"><strong>Visual Studio Code</strong></a>，简称VS Code</li>
-<li>版本管理工具Git，如果不熟悉命令行工具建议直接使用<a target="_blank" rel="noopener" href="https://desktop.github.com/"><strong>Github Desktop</strong></a></li>
-</ul>
-<blockquote>
-<p>Tips：如果你会使用Git命令行，那么接下来的教程可以选择性跳过</p>
-</blockquote>
-<p>下载完Github Desktop后，登录你刚刚注册的Github账户后，会有一个配置页面，选择默认的即可</p>
-<p><img src="/images/20210109/github-desktop-config.png"></p>
-<p>现在我们需要克隆远端的仓库，即下载在刚刚在Github上创建的仓库，会有一个界面让你选择克隆的路径，按需配置即可，当然要方便能找到:)</p>
-<p><img src="/images/20210109/github-desktop-clone-local-path.png"></p>
-<p>克隆完成后，在对应的文件夹下，就可以看到从远端下载下来的仓库里的文件啦</p>
-<p><img src="/images/20210109/github-desktop-file-explorer.png"></p>
-<p>我们用VS Code对index.md进行简单的编辑，index.md使用的是<strong>Markdown</strong>的语法，如果你对<strong>Markdown</strong>不熟悉，Github提供了简单的<a target="_blank" rel="noopener" href="https://guides.github.com/features/mastering-markdown/#syntax">语法说明</a>，VS Code提供了<strong>Markdown</strong>的插件，可以所见即所得的编辑，你也可以通过搜索引擎了解更多<strong>Markdown</strong>的信息，这里就不过多地赘述了。</p>
-<p>好的，我们继续，让我们把文件内容更改为</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">## Hello</span></span><br><span class="line">Hello, My first page!</span><br></pre></td></tr></table></figure>
-<p>保存后，打开Github Desktop，上面可以看到我们的更改，但这个更改是临时的，所以我们需要<strong>提交</strong>（<strong>Commit</strong>）。不懂Git的同学可能对这一步很困惑，为什么我已经保存了还需要再“提交”？这里就简单说明一下，这里的提交保存的是你的变动，即你删除了什么，增加了什么，下次你需要找你不小心删掉的某一行的时候，Git仍旧能帮你找到，如果不理解也没关系，这不影响我们接下来的工作。</p>
-<p><img src="/images/20210109/github-desktop-commit-update.png"></p>
-<p>提交完成后，我们需要将我们的更改<strong>推</strong>（<strong>Push</strong>）到远端</p>
-<p><img src="/images/20210109/github-desktop-push-origin.png"></p>
-<p>稍等片刻后（不超过5分钟），再次打开你的网站，你会发现，你已经可以掌控你的网站啦~</p>
-<p><img src="/images/20210109/website-first-commit.png"></p>
-<h2 id="设置你的域名"><a href="#设置你的域名" class="headerlink" title="设置你的域名"></a>设置你的域名</h2><p>如果你觉得你不喜欢github.io这个域名，想使用自己的域名，没问题的！这才是<strong>自己的网站</strong>的样子！</p>
-<p>那么首先你需要有一个域名，如果你还没有注册过，那么个人推荐可以在阿里云的<a target="_blank" rel="noopener" href="https://wanwang.aliyun.com/?source=5176.11533457&userCode=w1myvuxh"><strong>万网</strong></a>注册，毕竟名声在外。不过当前.com的域名已经比较稀缺了，可以选择.net或者其他域名。</p>
-<p>注册完域名后，按照<a target="_blank" rel="noopener" href="https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site">Github的要求</a>,在我们的域名下增加以下的记录类型为A的解析</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">185.199.108.153</span><br><span class="line">185.199.109.153</span><br><span class="line">185.199.110.153</span><br><span class="line">185.199.111.153</span><br></pre></td></tr></table></figure>
-<p>配置完后如下</p>
-<p><img src="/images/20210109/domain-record.png"></p>
-<p>然后再回到我们先前Github网站上Repo的settings页面，在Github Page下你会看到多了两个选项，在Custom domain下输入我们的域名，点击Save</p>
-<p><img src="/images/20210109/domain-config-in-github.png"></p>
-<p>现在我们就可以用我们自己的域名访问自己的网站了，是不是棒棒哒！</p>
-<p><img src="/images/20210109/website-custom-domain.png"></p>
-<p>但好像还是有点问题，地址栏显示了<strong>不安全</strong>，这对强迫症来说可不太好，所以我们继续回到settings页面，可以看到</p>
-<p><img src="/images/20210109/domain-config-https-wait.png"></p>
-<p>好吧，需要24小时左右才能生成https证书，但是亲测不需要那么久，我等了半小时左右就好啦~</p>
-<p><img src="/images/20210109/domain-config-https-checkin.png"></p>
-<p>勾上之后再打开我们的网站，“不安全”已经消失了，<strong>小锁</strong>已经出现了，非常的完美~</p>
-<p><img src="/images/20210109/website-custom-domain-https.png"></p>
-<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>至此，我们已经拥有了一个完全属于自己的网站，我们可以在上面放一些小东西，比如个人简历等任何你想放的东西。开始属于你的互联网世界吧~</p>
-<p>当然如果你觉得一个主页不足以容纳你的想象力，你可以使用Hexo等工具在无需编写代码的情况下来生成更加强大的网站，当然本文限于篇幅就不继续写下去了，有时间我会再写一篇关于Hexo的使用教程的。</p>
-
-      
-    </div>
-  </div>
-</article>
-
-
-
-<nav id="pagination">
-  
-  
-  <div class="clearfix"></div>
-</nav></div></div>
+</div></div>
     <aside id="sidebar" class="alignright"><div id="fixed-sidebar">
   
     <div class="widget">
